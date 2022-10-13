@@ -1,25 +1,29 @@
 PODS:
-  - Sourcery (1.8.0):
-    - Sourcery/CLI-Only (= 1.8.0)
-  - Sourcery/CLI-Only (1.8.0)
-  - SwiftyMocky (4.1.0):
-    - Sourcery (= 1.8.0)
+  - Sourcery (1.9.0):
+    - Sourcery/CLI-Only (= 1.9.0)
+  - Sourcery/CLI-Only (1.9.0)
+  - SwiftyMocky (4.2.1):
+    - Sourcery (= 1.9.0)
 
 DEPENDENCIES:
+  - Sourcery (from `https://github.com/krzysztofzablocki/Sourcery.git`)
   - SwiftyMocky (from `./`)
 
-SPEC REPOS:
-  trunk:
-    - Sourcery
-
 EXTERNAL SOURCES:
+  Sourcery:
+    :git: https://github.com/krzysztofzablocki/Sourcery.git
   SwiftyMocky:
     :path: "./"
 
-SPEC CHECKSUMS:
-  Sourcery: 6f5fe49b82b7e02e8c65560cbd52e1be67a1af2e
-  SwiftyMocky: 308ec8314ed9a2f72e5b16537ffff046fec8779f
+CHECKOUT OPTIONS:
+  Sourcery:
+    :commit: 544b639edb9a75b71d773cc5ae7e2c77173aaf34
+    :git: https://github.com/krzysztofzablocki/Sourcery.git
 
-PODFILE CHECKSUM: bdcefa827bbd4d82b3bb801ca8e42fd57d9afed5
+SPEC CHECKSUMS:
+  Sourcery: d7c59d100e55bf59123c8ae7d65a24cf30748979
+  SwiftyMocky: 04f987a5106dd72b325ffb2c10690f5255eee894
+
+PODFILE CHECKSUM: 9cab20c5f82cb309b4c52af75e75d771ea8c9c6a
 
 COCOAPODS: 1.11.3

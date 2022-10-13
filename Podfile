@@ -1,5 +1,7 @@
 use_frameworks!
 
+pod 'Sourcery', :git => 'https://github.com/krzysztofzablocki/Sourcery.git'
+
 def tests
     pod 'SwiftyMocky', :path => './'
 end
